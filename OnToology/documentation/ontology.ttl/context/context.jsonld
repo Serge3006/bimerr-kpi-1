@@ -1,0 +1,110 @@
+{
+  "@context" : {
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "created" : {
+      "@id" : "http://purl.org/dc/elements/1.1/created"
+    },
+    "KeyPerformanceIndicatorAssessment" : {
+      "@id" : "https://w3id.org/def/saref4city#KeyPerformanceIndicatorAssessment"
+    },
+    "quantifiesKPI" : {
+      "@id" : "https://w3id.org/def/saref4city#quantifiesKPI",
+      "@type" : "@id"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "relatedToProject" : {
+      "@id" : "https://bimerr.iot.linkeddata.es/def/key-performance-indicator#relatedToProject",
+      "@type" : "@id"
+    },
+    "hasName" : {
+      "@id" : "https://w3id.org/saref#hasName"
+    },
+    "hasValue" : {
+      "@id" : "https://w3id.org/saref#hasValue"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "hasProject" : {
+      "@id" : "https://bimerr.iot.linkeddata.es/def/key-performance-indicator#hasProject",
+      "@type" : "@id"
+    },
+    "coordinates" : {
+      "@id" : "http://www.semanticweb.org/serge30/bimerr/kpi#coordinates"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "Energy" : {
+      "@id" : "https://bimerr.iot.linkeddata.es/def/key-performance-indicator#Energy"
+    },
+    "name" : {
+      "@id" : "http://www.semanticweb.org/serge30/bimerr/kpi#name"
+    },
+    "changeDate" : {
+      "@id" : "http://www.semanticweb.org/serge30/bimerr/kpi#changeDate"
+    },
+    "address" : {
+      "@id" : "http://www.semanticweb.org/serge30/bimerr/kpi#address"
+    },
+    "Kpi" : {
+      "@id" : "http://www.semanticweb.org/serge30/bimerr/kpi#Kpi"
+    },
+    "identifier" : {
+      "@id" : "http://www.semanticweb.org/serge30/bimerr/kpi#identifier"
+    },
+    "preferredNamespacePrefix" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
+    },
+    "KeyPerformanceIndicator" : {
+      "@id" : "https://w3id.org/def/saref4city#KeyPerformanceIndicator"
+    },
+    "Comfort" : {
+      "@id" : "https://bimerr.iot.linkeddata.es/def/key-performance-indicator#Comfort"
+    },
+    "Project" : {
+      "@id" : "http://www.semanticweb.org/serge30/bimerr/kpi#Project"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/elements/1.1/publisher"
+    },
+    "unit" : {
+      "@id" : "http://www.semanticweb.org/serge30/bimerr/kpi#unit"
+    },
+    "KPIValue" : {
+      "@id" : "https://bimerr.iot.linkeddata.es/def/key-performance-indicator#KPIValue"
+    },
+    "hasScenario" : {
+      "@id" : "https://bimerr.iot.linkeddata.es/def/key-performance-indicator#hasScenario",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.semanticweb.org/serge30/bimerr/kpi#comment"
+    },
+    "Scenario" : {
+      "@id" : "http://www.semanticweb.org/serge30/bimerr/kpi#Scenario"
+    },
+    "hasDescription" : {
+      "@id" : "https://w3id.org/saref#hasDescription"
+    },
+    "Economic" : {
+      "@id" : "https://bimerr.iot.linkeddata.es/def/key-performance-indicator#Economic"
+    },
+    "Sustainability" : {
+      "@id" : "https://bimerr.iot.linkeddata.es/def/key-performance-indicator#Sustainability"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "preferredNamespaceUri" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
+    }
+  }
+}

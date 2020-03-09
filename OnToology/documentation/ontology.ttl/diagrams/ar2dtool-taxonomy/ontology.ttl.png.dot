@@ -1,0 +1,12 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "https://w3id.org/def/saref4city#KeyPerformanceIndicator" "kpi@en:Energy" "https://w3id.org/def/saref4city#KeyPerformanceIndicatorAssessment" "kpi@en:Comfort" "kpi@en:KPIValue" "kpi@en:Economic" "kpi@en:Sustainability" "http://www.semanticweb.org/serge30/bimerr/kpi#Kpi" ; /*classes style*/
+	"kpi@en:Energy" -> "http://www.semanticweb.org/serge30/bimerr/kpi#Kpi" [ label = "rdfs:subClassOf" ];
+	"kpi@en:KPIValue" -> "https://w3id.org/def/saref4city#KeyPerformanceIndicatorAssessment" [ label = "rdfs:subClassOf" ];
+	"kpi@en:Economic" -> "http://www.semanticweb.org/serge30/bimerr/kpi#Kpi" [ label = "rdfs:subClassOf" ];
+	"kpi@en:Sustainability" -> "http://www.semanticweb.org/serge30/bimerr/kpi#Kpi" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/serge30/bimerr/kpi#Kpi" -> "https://w3id.org/def/saref4city#KeyPerformanceIndicator" [ label = "rdfs:subClassOf" ];
+	"kpi@en:Comfort" -> "http://www.semanticweb.org/serge30/bimerr/kpi#Kpi" [ label = "rdfs:subClassOf" ];
+
+}
